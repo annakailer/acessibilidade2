@@ -3,9 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
-    --alto-contraste-fundo:#070066;
-    --alto-contraste-texto:#99e0ff;
-    --alto-contraste-link:#e3d1ff;
+    --alto-contraste-fundo: #070066;
+    --alto-contraste-texto: #99e0ff;
+    --alto-contraste-link: #e3d1ff;
 
 }
 
@@ -20,10 +20,10 @@ header {
 
 .nav-img {
     width: 20vw;
-    
+
 }
 
-.section{
+.section {
     padding-bottom: 5rem;
 }
 
@@ -171,14 +171,26 @@ h2 {
     margin-bottom: 5px;
 }
 
-.apresenta-lista{
+.apresenta-lista {
     display: none;
 }
-.alto-contraste{
+
+.alto-contraste {
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
-.alto-contraste header, .alto-contraste footer, .alto-contraste .formulario{
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link {
+    color: var(--alto-contraste-link);
+}
+.alto-contraste .botao-inicio, .alto-contraste .formulario button, .alto-contraste .btn-primary{
+background-color: var(--alto-contraste-link);
+color: var(--alto-contraste-fundo);
 }
